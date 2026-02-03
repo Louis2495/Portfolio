@@ -36,8 +36,24 @@ section {
     background-color: rgb(255, 255, 255);
 }
 
+.Projects {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
 #Barrett {
     width: 16rem;
+    height: 6rem;
+}
+
+#Puppy {
+    width: 10rem;
+    height: 6rem;
+}
+#Puppy2 {
+    width: 10rem;
     height: 6rem;
 }
 
