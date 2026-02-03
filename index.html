@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    
+    <canvas id = "matrix"></canvas>
     <header>
         <h1>Louis Anderson</h1>
         <nav>
@@ -26,39 +26,44 @@
         <div class = "Barrett-Container">
             <img src = "Barrett Logo.png" id = "Barrett">
             <div class = "text-box">
-                <p>I am a Senior in Barrett, The Honors College at Arizona State University. I am studying Computer Science (Cybersecurity).</p>
+                <p>I am a Senior in Barrett, The Honors College at Arizona State University. <br>I am studying Computer Science (Cybersecurity).</p>
             </div>
         </div>
     </section>
 
     <section id = "Resume">
         <h2>Louis Anderson - Resume</h2>
-        <img src = "Louis Anderson - Resume.pdf" alt = "This is my Resume, Last Updated Feb 2, 2026">
+        <a href = "Louis Anderson - Resume.pdf">
+            <img src = "Resume-Image.jpg" id = "Resume-Image">
+            <p>Last Updated (insert today's date with JS)</p>
+        </a>
     </section>
 
     <section id = "Projects">
         <h2>Projects</h2>
-        <section>
-            <Project1-Image>
-                <img src = "puppy.jpg" id = "Puppy">
-            </Project1-Image>
-            <div class = "text-box">
-                <p>
-                    Project 1 Description.
-                </p>
+
+        <div class = "Project-List">
+            <div class = "Project-Box">
+                <img src = "puppy1.jpg" id = "Puppy" class = "Project-Image">
+                <div class = "text-box">
+                    <p>
+                        Project 1 Description.
+                    </p>
+                </div>
             </div>
-        </section>
-        <section>
-            <Project2-Image>
-                <img src = "puppy2.jpg" id = "Puppy2">
-            </Project2-Image>
-            <div class = "text-box">
-                <p>
-                    Project 2 Description.
-                </p>
+
+            <div class = "Project-Box">
+                <div>
+                    <img src = "puppy2.jpg" id = "Puppy2" class = "Project-Image">
+                </div>
+                <div class = "text-box">
+                    <p>
+                        Project 2 Description.
+                    </p>
+                </div>
             </div>
-        </section>
-        <p>More Projects Coming Soon!</p>
+            <p>More Projects Coming Soon!</p>
+        </div>
     </section>
     
     <section id = "Certifications">
@@ -70,8 +75,9 @@
             Contact
         </h2>
         <p>Email: dlande24@asu.edu</p>
+        <p>Phone: (480) 695-0364</p>
     </section>
 
-
+<script src = "matrix.js"></script>
 </body>
 </html>
